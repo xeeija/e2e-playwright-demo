@@ -119,6 +119,19 @@ Running 3 tests using 3 workers
 
 Every test is running in all browsers configured for the test, 3 in this case. In the playwright config file, the browsers can be configured via `projects`.
 
+### UI Mode
+
+You can also run tests in UI mode with the `--ui` flag.
+
+```bash
+npx playwright test --ui
+```
+
+This opens a window with an overview of all tests in the left sidebar, lets you run and debug your tests and shows a step by step trace for tests.
+
+Alternatively you can run or debug tests in VS Code in the Testing tab with the Playwright extension.
+
+
 ## View the test report
 
 After running the tests, an HTML report is created that shows a detailed report on which tests passend failed, how long each test took, and where some test failed.
