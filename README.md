@@ -1,10 +1,20 @@
 # End-to-End Testing of Web Applications
 
-This exercise is based on the TodoMVC example of Playwright, which is based on [tastejs/todomvc](https://todomvc.com/).
+This project is part of the **End-to-End Testing of Web Applications** course by <a href="https://github.com/xeeija">Bastian Lang</a> and <a href="https://github.com/ramontip">Ramon Tippl</a></b>.
 
-## Installation
+## End-to-End Testing with Playwright
+
+The exercise is based on the TodoMVC example of Playwright, which is based on [tastejs/todomvc](https://todomvc.com/).
+
+### Installation
 
 1. Fork the repository to add it to your account, so you can make your own changes.
+
+   Alternatively, you can clone the repository with the following command, if you don't want to push your changes.
+
+    ```
+    git clone https://github.com/xeeija/e2e-playwright-demo.git
+    ```
 
 2. Install the npm dependencies of the project (actually only `@playwright/test`)
 
@@ -13,7 +23,7 @@ This exercise is based on the TodoMVC example of Playwright, which is based on [
     npm install
     ```
 
-3. Install browsers for running tests. Playwright downloads all browsers seperately (eg. to the `AppData` folder).
+3. Install browsers for running tests. Playwright downloads all browsers separately (eg. to the `AppData` folder).
 
     ```
     npx playwright install
@@ -41,3 +51,6 @@ npm init playwright@latest
 This will create a `playwright.config.ts` file with your settings, install the necessary browsers (optional) and add a Github Actions workflow (optional).
 
 You can modify the playwright config file to your needs and add projects for testing on different platforms.
+
+---
+> FH Joanneum, Business Informatics (AIM22), Selected Topics in Software Engineering 
