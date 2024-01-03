@@ -167,7 +167,7 @@ test("should allow me to mark all items as completed", async ({ page }) => {
 You can use the helper function below to create the standard todo items for the following tests, if you need it.
 
 ```ts
-async function createDefaultTodos(page) {
+async function createDefaultTodos(page: Page) {
   const newTodo = page.getByPlaceholder("What needs to be done?");
 
   for (const item of TODO_ITEMS) {
